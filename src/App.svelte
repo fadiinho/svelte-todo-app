@@ -12,7 +12,7 @@
   <div 
     class="flex flex-col items-center w-full h-full bg-very-light-grayish-blue 
             bg-m-header-image sm:bg-d-header-image dark:bg-m-header-image-dark dark:sm:bg-d-header-image-dark
-            bg-no-repeat bg-[length:100%_200px] bg-very-light-gray dark:bg-very-dark-blue">
+            bg-no-repeat bg-[length:100%_200px] dark:bg-very-dark-blue">
     <Header />
     <TodoList />
     <Footer />
