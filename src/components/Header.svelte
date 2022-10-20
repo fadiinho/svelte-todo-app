@@ -29,7 +29,7 @@
       <img alt="theme switch icon" src={ $darkTheme ? IconMoon : IconSun} />
     </span>
   </div>
-  <div class="flex text-sm items-center w-full dark:bg-very-dark-desaturated-blue rounded mt-8 mb-4 sm:w-3/4">
+  <div class="flex text-sm items-center w-full bg-very-light-gray dark:bg-very-dark-desaturated-blue rounded mt-8 mb-4 sm:w-3/4">
     <input 
       bind:value
       on:keydown={handleKeydown}
@@ -37,7 +37,7 @@
       placeholder="Create a new todo..."
     />
     <button on:click={handleClick}>
-      <Icon src={ArrowRight} size="28" class="pr-2" />
+      <Icon src={ArrowRight} size="28" class="pr-2 stroke-very-dark-grayish-blue dark:stroke-current" />
     </button>
   </div>
 </div>
