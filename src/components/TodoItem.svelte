@@ -18,5 +18,5 @@
   <span class="flex-1 ml-1 text-sm">
     {text}
   </span>
-  <img on:keydown on:click={() => removeTodo(id)} class="w-3 h-3" alt="remove todo" src={IconCross} />
+  <img on:keydown on:click={() => removeTodo(id)} class="w-3 h-3 cursor-pointer" alt="remove todo" src={IconCross} />
 </div>
